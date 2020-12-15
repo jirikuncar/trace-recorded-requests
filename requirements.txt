@@ -1,0 +1,7 @@
+# --find-links=https://s3.amazonaws.com/pypi.datadoghq.com/trace-dev/index.html
+# --pre
+ddtrace
+pytest
+pytest-vcr
+pytest-randomly
+urllib3

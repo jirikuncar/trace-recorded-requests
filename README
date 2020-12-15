@@ -1,0 +1,2 @@
+docker build -t trace-recorded-requests .
+docker run -it --rm --network=datadog-agent -e DD_AGENT_HOST=datadog-agent --entrypoint /bin/bash trace-recorded-requests
